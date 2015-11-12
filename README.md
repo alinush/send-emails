@@ -7,7 +7,7 @@ Here's how to use it:
 
  0. Write your email address (i.e. the address that will appear as the sender) in `from.txt`
  1. Write your HTML-formatted email in `email.html`
- 2. Put each recipient's email address (i.e. recipient@mit.edu), no names or other funky stuff on a separate line in `dest.txt`
- 3. Run `./send-email.sh`. The script will prompt you for the title of the email.
+ 2. Put each recipient's email address on a separate line in `dest.txt `(i.e. recipient@mit.edu), no names or other funky stuff
+ 3. Run `./send-emails.sh`. The script will prompt you for the title of the email.
 
 Done.
